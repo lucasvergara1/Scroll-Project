@@ -276,7 +276,7 @@ nav {
     display: none;
   }
   .links-container {
-    height: auto !important;
+    height: auto !important;/* aqui é critico para o Javascript funcionar, tem que deixar auto*/
   }
   .links {
     display: flex;
